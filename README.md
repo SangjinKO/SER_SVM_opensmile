@@ -2,7 +2,7 @@
  
 Speech Emotion Recognition System using SVM (Support Vector Machine with RBF Kernel)
 
-Dependencies: OpenSMILE, numpy, sklearn, pyaudio, scipy
+Dependencies: OpenSMILE, numpy, sklearn
 
 Corpus: RAVDESS (English, 1500 audios from 24 people)
 
