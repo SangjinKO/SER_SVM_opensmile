@@ -1,6 +1,6 @@
 # SER_SVM_opensmile
  
-Speech Emotion Recognition System using SVM (Support Vector Machine)
+Speech Emotion Recognition System using SVM (Support Vector Machine with RBF Kernel)
 
 Dependencies: OpenSMILE, numpy, sklearn, pyaudio, scipy
 
