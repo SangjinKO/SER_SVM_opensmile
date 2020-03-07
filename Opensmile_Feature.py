@@ -30,12 +30,12 @@ def load_feature(feature_path: str, train: bool):
 
     if train == True:
         scaler = StandardScaler().fit(X)
-        joblib.dump(scaler, Config.MODEL_PATH + 'temp_SCARAR.m')
+        joblib.dump(scaler, Config.MODEL_PATH + 'temp_SCALER.m')
         X = scaler.transform(X)
         x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size = 0.2, random_state = 42)
         return x_train, x_test, y_train, y_test
     else:
-        scaler = joblib.load(Config.MODEL_PATH + 'temp_SCARAR.m')
+        scaler = joblib.load(Config.MODEL_PATH + 'temp_SCALER.m')
         X = scaler.transform(X)
         return X
 
