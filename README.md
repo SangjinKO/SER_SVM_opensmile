@@ -10,4 +10,4 @@ Train (Features): OpemSMILE standard feature set*
 
 *IS10_paraling: The INTERSPEECH 2010 Paralinguistic Challenge, 1582 features
 
-Result: Accuracy: 0.684
+Result: Accuracy: 68.4%
