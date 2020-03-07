@@ -4,7 +4,7 @@ Speech Emotion Recognition System using SVM (Support Vector Machine with RBF Ker
 
 Dependencies: OpenSMILE, numpy, sklearn, pyaudio, scipy
 
-Corpos: RAVDESS (English, 1500 audios from 24 people)
+Corpus: RAVDESS (English, 1500 audios from 24 people)
 
 Train (Features): OpemSMILE standard feature set*
 
@@ -12,4 +12,4 @@ Train (Features): OpemSMILE standard feature set*
 
 Result: Accuracy: 68.4%
 
-*MEMO: Files should be categorized and stored in different folders by labels  (emotions)
+*MEMO: Files (corpus) should be categorized and stored in different folders by labels  (emotions)
